@@ -54,6 +54,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.example.studytime.ui.theme.Components.DeleteSessionDialog
 import com.example.studytime.ui.theme.Components.SubjectListBottomSheet
 import com.example.studytime.ui.theme.Red
+import com.example.studytime.ui.theme.Util.Constants.Action_Service_CANCEL
 import com.example.studytime.ui.theme.Util.Constants.Action_Service_START
 import com.example.studytime.ui.theme.Util.Constants.Action_Service_STOP
 import com.example.studytime.ui.theme.Util.ServiceHelper
@@ -142,6 +143,7 @@ private fun SessionScreen(
                 }
 
                 SnackbarEvent.NavigateUp -> {}
+                else -> {}
             }
         }
     }
@@ -217,8 +219,7 @@ private fun SessionScreen(
                         if(state.subjectId != null && state.relatedToSubject != null) {
                             ServiceHelper.triggerForegroundService(
                                 context = context,
-                                action =
-                                if (currentTimerState == TimerState.STARTED) {
+                                action = if (currentTimerState == TimerState.STARTED) {
                                     Action_Service_STOP
                                 } else
                                     Action_Service_START
@@ -233,7 +234,7 @@ private fun SessionScreen(
                         if(duration >= 36) {
                             ServiceHelper.triggerForegroundService(
                                 context = context,
-                                action = Action_Service_START
+                                action = Action_Service_CANCEL
                             )
                         }
                         onEvent(SessionEvent.saveSession(duration))
@@ -241,7 +242,7 @@ private fun SessionScreen(
                     cancelButtonClick = {
                         ServiceHelper.triggerForegroundService(
                         context =context ,
-                        action =Action_Service_START)},
+                        action = Action_Service_CANCEL)},
                     timerState = currentTimerState,
                     seconds= seconds
                     )
