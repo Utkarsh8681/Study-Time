@@ -2,6 +2,21 @@
 
 Welcome to the Study Smart application repository. Study Smart is an innovative educational app designed to structure study sessions into subject-specific tasks, significantly enhancing study planning and management efficiency.
 
+
+## Images
+
+
+**User Permission Screen**
+
+<div style="display: flex; justify-content: space-around;">
+  <img src="https://github.com/Utkarsh8681/Study-Time/assets/113334697/633b23a3-ba6b-4185-9c8e-f90b59d27ba7" alt="User Permission" width="200" style= "margin-right: 50"/>
+  <img src="https://github.com/Utkarsh8681/Study-Time/assets/113334697/042a974a-d20d-45c5-b83e-7f6f27a31a56" alt="Another Feature" width="200" style="margin-right: 50;"/>
+  <img src="https://github.com/Utkarsh8681/Study-Time/assets/113334697/e69d52f8-023d-47ba-83dc-3b48602fb60e" alt="Yet Another Feature" width="200" style="margin-right: 10;"/>
+   <img src="https://github.com/Utkarsh8681/Study-Time/assets/113334697/72fb11e6-51a8-476a-a5f5-67b8154c44b9" alt="Yet Another Feature" width="200"/>
+</div>
+
+
+
 ## Features
 
 - **Structured Study Sessions:** Create and manage study sessions divided into subject-specific tasks.
@@ -31,18 +46,20 @@ Welcome to the Study Smart application repository. Study Smart is an innovative 
    git clone https://github.com/Utkarsh8681/study-Time.git
    
 2. **Navigate to the Project Directory:**
- ```bash
+    ```bash
    git clone https://github.com/Utkarsh8681/study-Time.git
-```
+   ```
 3. **Open the Project in Android Studio:**   
-- Download and install Android Studio.
-- Open Android Studio and select "Open an existing Android Studio project."
-- Navigate to the project directory and open it.
+ - Download and install Android Studio.
+ - Open Android Studio and select "Open an existing Android Studio project."
+ - Navigate to the project directory and open it.
   
 4.**Build the Project:**
-- Once the project is open in Android Studio, click on Build > Make Project to build the project.
+ - Once the project is open in Android Studio, click on Build > Make Project to build the project.
   
-##Usage
+## Usage
+
+
 **Creating Study Sessions**
 - Open the app and navigate to the "Create Session" section.
 - Enter the subject and break down the study session into specific tasks.
@@ -57,7 +74,7 @@ Welcome to the Study Smart application repository. Study Smart is an innovative 
 
 1. **Fork the Repository:**
 
-- Click the Fork button at the top right of this page to create a copy of this repository in your GitHub account.
+ - Click the Fork button at the top right of this page to create a copy of this repository in your GitHub account.
 2. **Clone the Forked Repository:**
 ```bash
 Copy code
@@ -70,7 +87,7 @@ git checkout -b feature/your-feature-name
 ```
 4.**Make Your Changes:**
 
-- Implement your feature or bug fix.
+ - Implement your feature or bug fix.
 5. **Commit Your Changes:**
 ```bash
 git commit -m "Add your commit message here"
@@ -82,7 +99,7 @@ git push origin feature/your-feature-name
 ```
 7. **Create a Pull Request:**
 
-- Open a pull request from your branch to the main repository.
+ - Open a pull request from your branch to the main repository.
 
 ##License
 This project is licensed under the MIT License. See the LICENSE file for more details.
@@ -90,5 +107,5 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 ##Contact
 For any questions or suggestions, feel free to reach out:
 
-- Email: utkarsh8671@gmail
-- GitHub: https://github.com/Utkarsh8681/Study-Time/
+ - Email: utkarsh8671@gmail
+ - GitHub: https://github.com/Utkarsh8681/Study-Time/
